@@ -1,0 +1,37 @@
+.button {
+    padding: 12px 25px;
+    background-color: red;
+    border: none;
+    border-radius: 8px;
+    color: #FFF;
+
+    &.qizil {
+        background-color: red;
+        color: black;
+        border-radius: 8px;
+    }
+
+    &.blue {
+        background-color: blue;
+        border-radius: 8px;
+        color: yellow;
+
+        &:hover {
+            background-color: black;
+            color: #FFF;
+        }
+    }
+
+    &.green {
+        background-color: green;
+        border-radius: 8px;
+        color: aqua;
+    }
+
+    &.punk {
+        background-color: darkblue;
+        border-radius: 8px;
+        color: darkcyan;
+
+    }
+}
